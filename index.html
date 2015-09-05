@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sportina</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	    <link rel="stylesheet" href="css/waves.min.css">
+	    <link rel="stylesheet" href="style.css">
+    <script src="js/waves.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<video autoplay zoom=0 poster="css/img/Sports-Club.jpg" id="bgvid" loop>
+ 
+ 
+ 
+ 
+<source src="vid/vv.webm" type="video/webm">
+<source src="vid/vv.mp4" type="video/mp4">
+</video>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+         <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+					
+				<a class="clearfix bshadow0 pbs" id="menu" href="index.html">
+					<span class="icon-home">
+					</span>
+					<span class="mls">Sportina</span>
+				</a>    
+                </li>
+               <li>
+                    <a href="book.html" id="book" class="menu" >Book</a>
+                </li>
+                <li>
+                    <a href="games.html" id="games" class="menu">Games</a>
+                </li>
+               
+                <li>
+                    <a href="events.html" id="events" class="menu">Events</a>
+                </li>
+                <li>
+                    <a href="aboutus.html"id="about" class="menu">About</a>
+                </li>
+             </ul>
+		</div>
+        <!-- /#sidebar-wrapper -->
+
+
+	  <!-- Page Content -->
+        <div id="page-content-wrapper">
+		<button type="button" href="#menu-toggle" class="btn btn-default" aria-label="Left Align" id="menu-toggle" >
+            <span class="glyphicon glyphicon-align-justify btn-menu toggle" id="hmm" aria-hidden="true" ></span>
+		</button>
+            <div class="container-fluid">
+               
+				
+            </div>
+			<div >
+				<div class="triangle text-center"id="anot" style="display: none" href="book.html">
+				<h1>Amazing isn't it!</h1>
+				<a href="book.html" id="bookish">book now</a>
+				</div>
+			</div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+ <script type="text/javascript">
+    Waves.attach('#menu-toggle', ['waves-button']);
+    Waves.attach("#book",['waves-button']);
+    Waves.attach("#games",['waves-button']);
+    Waves.attach("#events",['waves-button']);
+    Waves.attach("#about",['waves-button']);
+    Waves.attach("#service",['waves-button']);
+    Waves.attach("#contact",['waves-button']);
+    Waves.attach("#shortcuts",['waves-button']);
+    Waves.attach("#menu",['waves-button']);
+	
+	
+	
+    Waves.init();
+	
+	$( document ).ready(function() {
+	setTimeout(function(){$( "#anot" ).show( "slow", function() {
+					
+			}); }, 2000);
+			
+	});
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sportina</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+		    <link rel="stylesheet" href="style.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	    <link rel="stylesheet" href="css/waves.min.css">
+	    <link rel="stylesheet" href="css/about.css">
+    <script src="js/waves.min.js"></script>
+
+
+</head>
+
+<body>
+   <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+         <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+					
+				<a class="clearfix bshadow0 pbs" id="menu" href="index.html">
+					<span class="icon-home">
+					</span>
+					<span class="mls">Sportina</span>
+				</a>    
+                </li>
+               <li>
+                    <a href="book.html" id="book" class="menu" >Book</a>
+                </li>
+                <li>
+                    <a href="games.html" id="games" class="menu">Games</a>
+                </li>
+               
+                <li>
+                    <a href="events.html" id="events" class="menu">Events</a>
+                </li>
+                <li>
+                    <a href="aboutus.html"id="about" class="menu">About</a>
+                </li>
+             </ul>
+		</div>
+        <!-- /#sidebar-wrapper -->
+
+
+	  <!-- Page Content -->
+        <div id="page-content-wrapper">
+		<button type="button" href="#menu-toggle" class="btn btn-default" aria-label="Left Align" id="menu-toggle" >
+            <span class="glyphicon glyphicon-align-justify btn-menu toggle" id="hmm" aria-hidden="true" ></span>
+		</button>
+            <div class="container-fluid">
+			
+               <div class="row" >
+						<div class="col-md-12">
+									
+					    <h1 class="text-center" style="color:rgba(27, 27, 26, 0.72)">About Us</h1>
+		
+						</div>                  
+						<div class="col-md-12 text-center">
+						<h2>
+							We are Pune based sports club with a simple vision to keep people healthy and playful.
+							We want to be premier place in Pune of network and play.
+						</h2>
+						</div>
+						<div class="col-md-6 text-center">
+						<h2>
+							The Begining
+						</h2>
+						<p id="details">
+							It all began in 2013 when our founder Nikesh Arora started feeling that Pune lacked a first class sports club that could deliver to its members a fun and learn type of environment.					
+						He set to build such a club himself. It is to his credit of not diluting the amazing experience we managed to enroll 100 members in 1<sup>st</sup> year of starting up.
+						</p>
+						</div>
+						<div class="col-md-6 text-center">
+						<h2>
+							Now
+						</h2>
+						<p id="details">
+							We have never looked back since the begining. With 500+ members in Pune we have become largest and the best sports club in Pune.
+						</p>
+						</div>
+						
+                </div>
+				</div>
+            </div>
+			<div >
+		</div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+ <script type="text/javascript">
+      Waves.attach('#menu-toggle', ['waves-button']);
+    Waves.attach("#book",['waves-button']);
+    Waves.attach("#games",['waves-button']);
+    Waves.attach("#events",['waves-button']);
+    Waves.attach("#about",['waves-button']);
+    Waves.attach("#service",['waves-button']);
+    Waves.attach("#contact",['waves-button']);
+    Waves.attach("#shortcuts",['waves-button']);
+    Waves.attach("#menu",['waves-button']);
+	
+	
+	
+    Waves.init();
+	
+	
+    </script>
+
+</body>
+
+</html>

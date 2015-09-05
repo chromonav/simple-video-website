@@ -1,0 +1,29 @@
+body{
+background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/booking.jpg');
+background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/booking.jpg');
+color:white;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#booking{
+   display: block !important;  
+  margin-right: auto !important;  
+  margin-left: auto !important; 
+	max-width: 600px;
+  color:white;
+}
+
+#submit{
+background:white;
+color:rgba(27, 27, 26, 1);
+}
+#submit:hover{
+background:#F3F2F2	;
+color:black;
+}
+label{
+font-size:1.5em;
+}

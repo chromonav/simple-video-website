@@ -1,0 +1,32 @@
+contestant name:Chinmay Kulkarni
+contact no: 8805189711
+email: cykulkarni@hotmail.com
+
+
+/*----------------------------*/
+
+opening instructions:
+
+extract whole zip folder and open index.html to view the website
+
+/*---------------------------*/
+
+Design Documentation
+1. Video website to mesmerise user of awesome things that go in the club
+2. All non essential elements like footer and menubar or sidebars were removed to during design itterations to give a clean simple and modern look
+3. Site has been designed with minimum ui to give emphasis on visuals and content.
+4. Site is designed responsively and can be tested by resizing the window
+5. Visuals have been compiled as follows
+	from copyright friendly stockphotos
+	video has been downloaded over youtube and edited to fit the theme(video making was out of scope of this project)
+/*---------------------------*/
+Support:
+site has been tested for following browsers and is expected work across all modern browsers in similar way.
+
+tested on:
+windows10
+	microsoft edge
+	google chrome
+	mozilla firefox
+
+for slow connections which will take time to download video a background poster has been added.

@@ -1,0 +1,125 @@
+.games{
+height:600px;
+color:white;
+font-size:1.5em !important;
+z-index: -100;
+margin-top:0px !important;
+margin-bottom:0px !important;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#game{
+font-size:4.5em !important;
+font-weight:800;
+}
+
+#courses{
+font-size:2.5em !important;
+font-weight:800;
+
+}
+
+#menu-toggle{
+position:fixed;
+}
+#football{
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+background: url('img/football.jpg');
+
+}
+#football:hover{
+background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/football.jpg');
+background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/football.jpg');
+
+}
+
+#tennis{
+background: url('img/tennis.jpg');
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+}
+#tennis:hover{
+background:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/tennis.jpg');
+background:-moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/tennis.jpg');
+
+}
+
+#squash{
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+background-image:url('img/squash.jpg');
+}
+#squash:hover{
+background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/squash.jpg');
+background-image:-moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/squash.jpg');
+}
+#badminton{
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+background-image:url('img/badminton.jpg');
+
+}
+#badminton:hover{
+background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/badminton.jpg');
+background-image:-moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/badminton.jpg');
+
+}
+#volleyball{
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+background-image:url('img/volleyball.jpg');
+
+}
+#volleyball:hover{
+background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/volleyball.jpg');
+background-image:-moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/volleyball.jpg');
+
+}
+
+#swimming{
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+background-image:url('img/swimming.jpg');
+
+}
+#swimming:hover{
+background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/swimming.jpg');
+background-image:-moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/swimming.jpg');
+
+}
+#baseball{
+transition: background 2s ease;
+opacity: 1;
+-moz-transition: background 2s ease-in-out;
+ -webkit-transition: background 2s ease-in-out;
+ -webkit-transition-property: background;
+background-image:url('img/baseball.jpg');
+
+}
+#baseball:hover{
+background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/baseball.jpg');
+background-image:-moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/baseball.jpg');
+
+}

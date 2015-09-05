@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sportina</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+		    <link rel="stylesheet" href="style.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	    <link rel="stylesheet" href="css/waves.min.css">
+	    <link rel="stylesheet" href="css/book.css">
+    <script src="js/waves.min.js"></script>
+
+
+</head>
+
+<body>
+   <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+         <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+					
+				<a class="clearfix bshadow0 pbs" id="menu" href="index.html">
+					<span class="icon-home">
+					</span>
+					<span class="mls">Sportina</span>
+				</a>    
+                </li>
+               <li>
+                    <a href="book.html" id="book" class="menu" >Book</a>
+                </li>
+                <li>
+                    <a href="games.html" id="games" class="menu">Games</a>
+                </li>
+               
+                <li>
+                    <a href="events.html" id="events" class="menu">Events</a>
+                </li>
+                <li>
+                    <a href="aboutus.html"id="about" class="menu">About</a>
+                </li>
+             </ul>
+		</div>
+        <!-- /#sidebar-wrapper -->
+
+
+	  <!-- Page Content -->
+        <div id="page-content-wrapper">
+		<button type="button" href="#menu-toggle" class="btn btn-default" aria-label="Left Align" id="menu-toggle" >
+            <span class="glyphicon glyphicon-align-justify btn-menu toggle" id="hmm" aria-hidden="true" ></span>
+		</button>
+            <div class="container-fluid">
+			
+               <div class="row" >
+			   
+                    
+						<div class="clearfix bshadow0 pbs text-center" style="font-size:4em;">
+							<span class="icon-noun_15912_cc">				
+							</span>
+							<span class="mls">Register</span>
+						</div>
+						<br>
+									<form class="form-horizontal" id="booking" >
+										<div class="form-group">
+											<label for="inputName" class="col-sm-2 control-label">Name:</label>
+											<div class="col-sm-10">
+											  <input type="text" class="form-control" id="inputEmail3" placeholder="What should we call you">
+											</div>
+										  </div>
+										  
+										  <div class="form-group">
+											<label for="inputName" class="col-sm-2 control-label">ID:</label>
+											<div class="col-sm-10">
+											  <input type="number" class="form-control" id="inputEmail3" placeholder="Your sports club id">
+											</div>
+										  </div>
+										  <div class="form-group">
+											<label for="inputName" class="col-sm-2 control-label">Number:</label>
+											<div class="col-sm-10">
+											  <input type="number" class="form-control" id="inputphno" placeholder="Phone number">
+											</div>
+										  </div>
+										  <div class="form-group">
+											<label for="inputName" class="col-sm-2 control-label">Sport:</label>
+											<div class="col-sm-10">
+											 <select class="form-control">
+												<option value="one">Football</option>
+												<option value="two">Lawn Tennis</option>
+												<option value="three">Squash</option>
+												<option value="four">Badminton</option>
+												<option value="five">Basketball</option>
+												<option value="five">Volleyball</option>
+											</select>
+											</div>										 
+										</div>
+										  <div class="form-group">
+											<label for="inputName" class="col-sm-2 control-label">Date:</label>
+											<div class="col-sm-10">
+											  <input type="Date" class="form-control" id="date" placeholder="Date">
+											</div>
+										  </div>
+										  <div class="form-group">
+											<label for="inputName" class="col-sm-2 control-label">Slot:</label>
+											<div class="col-sm-10">
+											 <select class="form-control">
+												<option value="one">9:30</option>
+												<option value="two">11:30</option>
+												<option value="three">1:30</option>
+												<option value="four">3:30</option>
+												<option value="five">5:30</option>
+												<option value="five">7:30</option>
+											</select>
+											</div>										 
+										</div>									  
+										  <div class="form-group">
+											<div class="col-sm-offset-2 col-sm-10">
+											  <button type="submit" class="btn btn-default" id="submit">Submit</button>
+											</div>
+										  </div>
+										</form>
+					
+                </div>
+				</div>
+            </div>
+			<div >
+		</div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+ <script type="text/javascript">
+      Waves.attach('#menu-toggle', ['waves-button']);
+    Waves.attach("#book",['waves-button']);
+    Waves.attach("#games",['waves-button']);
+    Waves.attach("#events",['waves-button']);
+    Waves.attach("#about",['waves-button']);
+    Waves.attach("#service",['waves-button']);
+    Waves.attach("#contact",['waves-button']);
+    Waves.attach("#shortcuts",['waves-button']);
+    Waves.attach("#menu",['waves-button']);
+    Waves.attach("#submit",['waves-button']);
+	
+	
+	
+    Waves.init();
+	
+	
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sportina</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	    <link rel="stylesheet" href="css/waves.min.css">
+		<link rel="stylesheet" href="css/events.css">
+		<link rel="stylesheet" href="style.css">
+
+    <script src="js/waves.min.js"></script>
+
+
+</head>
+
+<body>
+     <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+					
+				<a class="clearfix bshadow0 pbs" id="menu" href="index.html">
+					<span class="icon-home">
+					</span>
+					<span class="mls">Sportina</span>
+				</a>    
+                </li>
+               <li>
+                    <a href="book.html" id="book" class="menu" >Book</a>
+                </li>
+                <li>
+                    <a href="games.html" id="games" class="menu">Games</a>
+                </li>
+               
+                <li>
+                    <a href="events.html" id="events" class="menu">Events</a>
+                </li>
+                <li>
+                    <a href="aboutus.html"id="about" class="menu">About</a>
+                </li>
+             </ul>
+		</div>
+        <!-- /#sidebar-wrapper -->
+
+
+	  <!-- Page Content -->
+        <div id="page-content-wrapper">
+		<button type="button" href="#menu-toggle" class="btn btn-default" aria-label="Left Align" id="menu-toggle" >
+            <span class="glyphicon glyphicon-align-justify btn-menu toggle" id="hmm" aria-hidden="true" ></span>
+		</button>
+            
+				<h1 class="text-center">Events</h1>
+					<div class="row games" id="famalia">
+						
+						<div class="clearfix bshadow0 pbs col-md-12 text-center" id="game">
+							
+							<span class="mls">Famalia</span>
+						</div>
+						<div class="col-md-12 text-center">
+						Famalia is our flagship event where member families come together to compete against each other.<br>Only the best family survives the heat to win!!
+						</div>
+						
+						<div class="col-md-6 text-center" >
+						<h3 id="courses">When</h3>
+							<p>Annual event conducted on first week of September</p>							
+						</div>
+						<div class="col-md-6 text-center" >
+						<h3 id="courses">Registration</h3>
+						<p>Registrations are currently closed
+						</p>
+						</div>
+					</div>
+					
+					<div class="row games" id="womensera">		
+						<div class="clearfix bshadow0 pbs col-md-12 text-center" id="game">
+							
+							<span class="mls">WomensEra</span>
+						</div>
+						<div class="col-md-12 text-center">
+						Weekly meetup where women play, eat and chat
+						</div>
+						<div class="col-md-6 text-center" >
+						<h3 id="courses">Join</h3>
+							<p>Call Smita:123456789 
+							<br> to know more
+							</p>							
+						</div>
+						<div class="col-md-6 text-center" >
+						<h3 id="courses">Timings</h3>
+						<p>Every Sunday morninf
+						</p>
+						</div>
+					</div>
+						
+				
+            
+			
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+ <script type="text/javascript">
+     Waves.attach('#menu-toggle', ['waves-button']);
+    Waves.attach("#book",['waves-button']);
+    Waves.attach("#games",['waves-button']);
+    Waves.attach("#events",['waves-button']);
+    Waves.attach("#about",['waves-button']);
+    Waves.attach("#service",['waves-button']);
+    Waves.attach("#contact",['waves-button']);
+    Waves.attach("#shortcuts",['waves-button']);
+    Waves.attach("#menu",['waves-button']);
+	
+	
+	
+    Waves.init();
+	
+	$( document ).ready(function() {
+	setTimeout(function(){$( "#anot" ).show( "slow", function() {
+					
+			}); }, 2000);
+			
+	});
+    </script>
+
+</body>
+
+</html>
